@@ -1,0 +1,149 @@
+body {
+    background-image: url(Images/caesarea_israel-wallpaper-2560x1440.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 15px;
+    background-color: rgba(5, 5, 5, .5);
+    width: 70%;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.preVerse {
+    display: inline;
+    align-content: center;
+    text-align: center;
+    margin-top: 15px;
+    background: rgba(5, 5, 5, .5);
+    width: 70%;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.5), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#cross {
+}
+
+h1 {
+    color: white;
+    font-family: 'Lobster', serif;
+    font-size: 5em;
+    margin-top: -150px;
+    margin-bottom: 90px;
+    text-shadow: 4px 4px #000000;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+}
+
+h4 {
+    color: black;
+    font-family: 'Spectral SC', serif;
+    font-size: 1em;
+    display: flex;
+    margin-bottom: -20px;
+}
+
+.preVerse > span {
+    margin: auto;
+    text-align: center;
+    font-family: 'Spectral SC', serif;
+    font-size: 1.25em;
+    color: white;
+}
+
+.preVerse > span > a {
+    color: inherit;
+}
+
+#quoteDisplay {
+    color: white;
+    margin: auto;
+    padding: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+}
+
+button {
+    position: absolute;
+    float:left;
+    margin: auto;
+    margin-top: 165px;
+    margin-bottom: 15px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    font-size: 16px
+    padding: 10px 15px 11px;
+    font-weight: bold;
+    text-shadow: 1px 1px, #ffffff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: 'Spectral SC', serif;
+}
+
+button:hover {
+    position: absolute;
+    float:left;
+    margin: auto;
+    margin-top: 165px;
+    margin-bottom: 15px;
+    height: 55px;
+    width: 155px;
+    background-color: #EDEDED;
+    font-size: 16px
+    padding: 10px 15px 11px;
+    font-weight: bold;
+    text-shadow: 1px 1px, #EDEDED;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 5px 5px 1px rgba(0, 0, 0, 0.7), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: 'Spectral SC', serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.fade { 
+  animation: fadein 1s;
+
+}
+@keyframes fadein {
+  from {
+    opacity:1;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity:1;
+  }
+}
